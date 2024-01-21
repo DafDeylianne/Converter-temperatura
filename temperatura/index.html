@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div>
+        <h1>Converter temperatura</h1>
+        <h3>Selecione qual unidade quer: </h3>
+        <section class="primeiro">
+            <input type="radio" name="opcao" id="farenheit" value="op1"> Celsius para Farenheit <br>
+            <input type="radio" name="opcao" id="celsius" value="op2"> Farenheit para Celsius
+        </section> <br>
+        <section class="segundo">
+            Converter valor: <input type="number" id="num"> 
+        </section>
+        <button onclick="enviar()">Converter</button>
+        <p id="resposta"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

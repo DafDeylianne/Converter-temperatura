@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&display=swap');
+
+:root {
+    --cor-fundo: #AD79DB;
+    --cor1: #261733;
+    --cor2: #957EA8;
+    --cor3: white;
+    --cor4: black;
+    --letra: 'Inconsolata';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+div {
+    background: var(--cor3);
+    padding: 50px;
+    height: 300px;
+    width: 400px;
+    margin: 80px auto;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.356);
+}
+
+h1 {
+    font-family: var(--letra);
+    color: var(--cor2);
+    font-weight: 600;
+    animation: fadeInDown;
+    animation-duration: 2s;
+}
+
+h3 {
+    font-family: var(--letra);
+    color: var(--cor1);
+    font-weight: 300;
+    padding: 15px;
+}
+
+.primeiro {
+    font-family: var(--letra);
+    color: var(--cor4);
+    font-weight: 300;
+    padding: 20px;
+}
+
+.segundo {
+    font-family: var(--letra);
+    color: var(--cor-fundo);
+    font-weight: 300;
+}
+
+.segundo input {
+    border-color: var(--cor-fundo);
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 9px;
+}
+
+button {
+    font-family: var(--letra);
+    color: var(--cor4);
+    font-weight: 400;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--cor-fundo);
+    background: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--cor-fundo);
+    color: var(--cor3);
+    transition: 2s;
+    box-shadow: 2px 3px rgba(99, 98, 98, 0.404);
+}
+
+p {
+
+    background: var(--cor-fundo);
+    box-shadow: 2px 1px rgba(128, 128, 128, 0.301);
+    border-radius: 10px;
+    width: auto;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+    font-family: var(--letra);
+    color: var(--cor4);
+    font-weight: 400;
+}
